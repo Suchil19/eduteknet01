@@ -68,7 +68,7 @@
   ],
   "screenshots": [
     {
-      "src": "./img/screen.png",
+      "src": "../img/screen.png",
       "type": "image/png",
       "sizes": "640x320",
       "form_factor": "narrow"
