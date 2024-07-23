@@ -60,7 +60,7 @@
       "type": "image/png"
     }
   ],
-  "description": "Compress and compare images with different codecs, right in your browser.",
+  "description": "Disfruta de la nueva app de Eduteknet",
   "categories": [
     "photo",
     "productivity",
@@ -73,20 +73,5 @@
       "sizes": "640x320",
       "form_factor": "narrow"
     }
-  ],
-  "share_target": {
-    "action": "/?utm_medium=PWA&utm_source=share-target&share-target",
-    "method": "POST",
-    "enctype": "multipart/form-data",
-    "params": {
-      "files": [
-        {
-          "name": "file",
-          "accept": [
-            "image/*"
-          ]
-        }
-      ]
-    }
-  }
+  ]
 }
