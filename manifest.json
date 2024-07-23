@@ -1,7 +1,6 @@
 {
   "name": "Eduteknet",
   "short_name": "Eduteknet",
-  "description": "Bienvenidos a Eduteknet",
   "background_color": "#ffffff", 
   "theme_color": "#ffffff",
   "orientation": "portrait",
@@ -9,15 +8,6 @@
   "start_url": "./?utm_source=web_app_manifest",
   "scope": "./",
   "lang": "es-MX",
-  "screenshots": [
-    {
-     "src": "./img/screen.png",
-      "sizes": "640x320",
-      "type": "image/gif",
-      "form_factor": "wide",
-      "label": "Wonder Widgets"
-    }
-],
   "icons": [
     {
       "src": "./img/icon_1024.png",
@@ -69,5 +59,34 @@
       "sizes": "16x16",
       "type": "image/png"
     }
-  ]
+  ],
+  "description": "Compress and compare images with different codecs, right in your browser.",
+  "categories": [
+    "photo",
+    "productivity",
+    "utilities"
+  ],
+  "screenshots": [
+    {
+      "src": "./img/screen.png",
+      "type": "image/png",
+      "sizes": "640x320",
+      "form_factor": "narrow"
+    }
+  ],
+  "share_target": {
+    "action": "/?utm_medium=PWA&utm_source=share-target&share-target",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "files": [
+        {
+          "name": "file",
+          "accept": [
+            "image/*"
+          ]
+        }
+      ]
+    }
+  }
 }
